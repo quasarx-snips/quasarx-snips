@@ -181,6 +181,13 @@ Long term, I want to work on difficult engineering problems where security, inte
 
 ![Top Languages](https://github-readme-stats.shion.dev/api/top-langs/?username=quasarx-snips&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
+![Profile Details](https://raw.githubusercontent.com/quasarx-snips/quasarx-snips/main/profile-summary-card-output/tokyonight/0-profile-details.svg)
+
+<p align="center">
+  
+  <img src="https://raw.githubusercontent.com/quasarx-snips/quasarx-snips/refs/heads/main/profile-summary-card-output/tokyonight/4-productive-time.svg" width="48%" />
+</p>
+
 ## GitHub Trophies
 
 ![GitHub Trophies](https://github-trophies.vercel.app/?username=quasarx-snips&theme=radical&no-frame=false&no-bg=true&margin-w=4)
