@@ -2,8 +2,8 @@ name: GitHub-Profile-Summary-Cards
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight UTC
-  workflow_dispatch: # Allows you to run it manually
+    - cron: "0 0 * * *" # Automatically updates daily
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   build:
@@ -13,10 +13,9 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-      - uses: vn7n24zzkq123/github-profile-summary-cards@release
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          # To match the rest of your profile, you can force the theme:
           THEME: tokyonight
